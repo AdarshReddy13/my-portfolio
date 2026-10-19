@@ -14,22 +14,26 @@ export const Navbar = () => {
       <div className="w-full h-full flex items-center justify-between m-auto px-[10px]">
         {/* Logo + Name */}
         <Link
-          href="#about-me"
-          className="flex items-center"
+          href="#home"
+          className="flex items-center gap-2"
         >
-          <Image
-            src="/logo.png"
-            alt="Logo"
-            width={70}
-            height={70}
-            draggable={false}
-            className="cursor-pointer"
-          />
-          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">John Doe</div>
+          <div className="relative w-[48px] h-[48px] rounded-full overflow-hidden p-[2px] bg-gradient-to-r from-purple-500 to-cyan-500 shadow-lg shadow-purple-500/30">
+            <Image
+              src="/logo.png"
+              alt="Adarsh Reddy Logo"
+              width={48}
+              height={48}
+              draggable={false}
+              className="cursor-pointer object-cover rounded-full w-full h-full"
+            />
+          </div>
+          <div className="hidden md:flex font-bold ml-[6px] text-transparent bg-clip-text bg-gradient-to-r from-purple-300 via-indigo-200 to-cyan-300 text-lg tracking-wide">
+            Adarsh Reddy
+          </div>
         </Link>
 
         {/* Web Navbar */}
-        <div className="hidden md:flex w-[500px] h-full flex-row items-center justify-between md:mr-20">
+        <div className="hidden md:flex w-[560px] h-full flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border-[rgba(112,66,248,0.38)] bg-[rgba(3,0,20,0.37)] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
             {NAV_LINKS.map((link) => (
               <Link

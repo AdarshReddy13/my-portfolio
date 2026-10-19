@@ -9,11 +9,11 @@
     "lint": "eslint ."
   },
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhyyy@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "Adarsh Reddy",
+    "email": "adarshpanchagavi691@gmail.com",
+    "url": "https://github.com/AdarshReddy13"
   },
-  "description": "Welcome to my full stack Next.js 14 space portfolio.",
+  "description": "Welcome to my full stack space portfolio.",
   "keywords": [
     "reactjs",
     "nextjs",
@@ -48,12 +48,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanidhyy/space-portfolioit"
+    "url": "https://github.com/AdarshReddy13/my-portfolio.git"
   },
-  "homepage": "https://github.com/sanidhyy/space-portfolio#readme",
+  "homepage": "https://github.com/AdarshReddy13/my-portfolio#readme",
   "bugs": {
-    "url": "https://github.com/sanidhyy/space-portfolio/issues",
-    "email": "sanidhyyy@gmail.com"
+    "url": "https://github.com/AdarshReddy13/my-portfolio/issues"
   },
   "funding": [
     {

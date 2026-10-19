@@ -92,17 +92,17 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/adarsh_reddy.1/",
   },
   {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
+    name: "LinkedIn",
+    icon: RxLinkedinLogo,
+    link: "https://www.linkedin.com/in/adarsh-panchagavi/",
   },
   {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://x.com/_sanidhyy",
+    name: "GitHub",
+    icon: RxGithubLogo,
+    link: "https://github.com/AdarshReddy13",
   },
 ] as const;
 
@@ -259,25 +259,25 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "Blinkit Quick-Commerce UI Clone",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
-    image: "/projects/project-1.png",
-    link: "https://example.com",
+      "A fast, responsive quick-commerce web app inspired by Blinkit. Replicates 10-minute instant delivery with dynamic grocery catalog browsing, cart mechanics, mobile-friendly layouts, and intuitive checkout experience.",
+    image: "/projects/blinkit-clone.png",
+    link: "https://github.com/AdarshReddy13/blinkit-ui-Clone",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "D2C Vision — AI Product Launch Readiness",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
-    image: "/projects/project-2.png",
-    link: "https://example.com",
+      "An automated launch validation platform that tests D2C product viability against live market benchmarks, competitor intelligence, and deterministic unit economics before deploying capital.",
+    image: "/projects/d2c-vision.png",
+    link: "https://github.com/mohammedhuzef/d2c-vision",
   },
   {
-    title: "Space Themed Website",
+    title: "Space Themed 3D Portfolio",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      "An interstellar developer portfolio built with Next.js and Three.js. Features cosmic particle starfields, interactive skills constellation, Framer Motion animations, and custom glassmorphism design.",
     image: "/projects/project-3.png",
-    link: "https://example.com",
+    link: "https://github.com/AdarshReddy13",
   },
 ] as const;
 
@@ -293,7 +293,7 @@ export const FOOTER_DATA = [
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/AdarshReddy13",
       },
       {
         name: "Discord",
@@ -308,17 +308,17 @@ export const FOOTER_DATA = [
       {
         name: "Instagram",
         icon: RxInstagramLogo,
-        link: "https://instagram.com",
+        link: "https://www.instagram.com/adarsh_reddy.1/",
       },
       {
         name: "Twitter",
         icon: RxTwitterLogo,
-        link: "https://x.com/_sanidhyy",
+        link: "https://twitter.com",
       },
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
+        link: "https://www.linkedin.com/in/adarsh-panchagavi/",
       },
     ],
   },
@@ -346,6 +346,10 @@ export const FOOTER_DATA = [
 
 export const NAV_LINKS = [
   {
+    title: "Home",
+    link: "#home",
+  },
+  {
     title: "About me",
     link: "#about-me",
   },
@@ -360,5 +364,5 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
+  sourceCode: "https://github.com/AdarshReddy13",
 };
